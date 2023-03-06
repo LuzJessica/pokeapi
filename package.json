@@ -1,0 +1,23 @@
+{
+  "name": "pokeapi-automated-tests",
+  "version": "1.0.0",
+  "description": "Repository to practice Test Automation using Cypress fundamentals",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuzJessica/pokeapi.git"
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Cypress Fundamentals"
+  ],
+  "author": "Jéssica Luz <jessicaluz@gec.inatel.br>",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
